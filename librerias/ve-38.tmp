@@ -1,0 +1,139 @@
+
+
+
+<html>
+<head>
+<title>Sony (IQScout) </title>
+<Script language=JavaScript>
+		function CRT()
+
+		{
+		document.forms[0].submit();	
+		}
+</Script>
+<Script language=JavaScript>
+		function CRT1()
+
+		{
+		document.forms[0].submit();	
+		}
+</Script>
+<Script language=JavaScript>
+		function CRT2()
+
+		{
+		document.forms[0].submit();	
+		}
+</Script>
+</head>
+<link href="ismx.css" rel=stylesheet>
+<body bgcolor="#ffffff" topmargin=0 leftmargin=0>
+<table width=800 border=0 cellpadding=0 cellspacing=0>
+	<tr>
+		<td colspan=3>
+			<img src="imagenes/banner_top2.gif">
+		</td>
+	</tr>
+	<tr>
+		<!--- menú --->
+		<td valign=top width=150>
+			<script src="xaramenu.js"></script><script webstyle3 src="Imagenes/menu_sony.js"></script>
+
+		</td>
+		<!--- fin menu--->
+		<!--- inicio espacio--->
+		<td valign=top width=10>&nbsp;</td>
+		<!---Inicio Contenido --->
+		<td valign=top width=650>
+			<form method="post" action="/sony/productos.asp?Refresh=15184029">
+			<br><br>
+			<table width=700 border=0 cellpadding=0 cellspacing=0>
+				<tr>
+					<td width=150 valign=top>
+						<font face=arial size=2>Fabricante:
+					</td>
+					<td valign=top width=200>
+						<input type=hidden name="fabricanteant" value="1">
+						<select name="fabricante" size=1 onchange="CRT();">
+							
+								<option value=0>Seleccione el Fabricante
+							
+							
+								<option value="5" >LG                                      
+							
+								<option value="3" >PHILCO                                  
+							
+								<option value="2" >SANSUNG                                 
+							
+								<option value="1"  Selected>SONY                                    
+							
+								<option value="4" >ZONDA                                   
+						</select>
+					</td>
+
+				
+					
+
+					<td width=150 valign=top>
+						<font face=arial size=2>Marca:
+					</td>
+					
+					<td valign=top width=200> 
+						<input type=hidden name="marcaant" value="4">
+						<select name="marca" size=1 onchange="CRT1();">
+								
+								<option value="0">Seleccione la Marca
+							
+								<option value="8" >CLIE      
+								<option value="2" >VAIO      
+								<option value="4"  Selected>VIDEO     
+								<option value="3" >WEGA      
+						</select>
+					</td>
+				</tr>
+				
+				
+				<tr>
+					<td width=200>
+						<font face=arial size=2><br>Línea:
+					</td>
+					<td colspan=3>
+						<input type=hidden name="plant" value="4">
+						<select name="pl" size=1 onchange="CRT2();">
+								
+								<option value="0">Seleccione la línea
+							
+								<option value="5" >AUDIO                                   
+								<option value="4"  Selected>CAMARAS DIGITALES                       
+								<option value="2" >COMPUTO                                 
+								<option value="3" >DVD                                     
+								<option value="1" >TELEVISORES                             
+								<option value="6" >VIDEOCAMARAS                            
+						</select>
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan=4>
+						<br>
+						<IFRAME NAME="grid" width="720" height="350" SRC="grid_productos.asp?pagina=1" frameborder=0 scrolling=auto >
+						</IFRAME>
+					</td>
+				</tr>
+				
+				
+				
+				<tr>
+			<!--		<td width=200>
+						<font face=arial size=2>Acción:
+					</td>
+					<td colspan=3>
+						<br><input name="agregar" type=image src="imagenes/agregar.gif"><input name="modificar" type=image src="imagenes/modificar.gif"><input name="eliminar" type=image src="imagenes/eliminar.gif">
+						-->
+					<td>	
+						<br><br>
+						
+					</td>
+				</tr>
+		<!--		<input type=hidden name="fabricante" value=1>
+				<input type=hidden 
